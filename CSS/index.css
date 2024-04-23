@@ -69,10 +69,7 @@ footer {
 }
 
 #text {
-    position: fixed;
-    top: 16rem;
-    left: 50%;
-    transform: translate(-50%, 0);
+    margin-top: 2rem;
 }
 
 #text > p {
