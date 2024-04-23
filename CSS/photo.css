@@ -9,21 +9,29 @@ body {
     width: 80vw; /* 슬라이더 너비 조정 */
     margin: 0 auto;
     overflow: hidden;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .image-slider .slides {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     transition: transform 0.5s ease;
 }
 
 .image-slider .slide {
-    min-width: 100%;
+    /* min-width: 100%; */
+    text-align: center;
 }
 
 .image-slider .slide > img {
     width: 80vw;
     height: 80vw;
+}
+
+.image-slider .slide > p {
+    margin-top: 0.5rem;
 }
 
 /* 화살표 스타일 */

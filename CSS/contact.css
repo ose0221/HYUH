@@ -14,10 +14,38 @@
 }
 
 .profile > img {
-    width: 20vw;
+    width: 25vw;
 }
 
 .bio {
     display: flex;
     flex-direction: column;
+}
+
+.name,
+.comment {
+    margin-bottom: 0.5rem;
+}
+.comment,
+.insta {
+    font-size: 0.8rem;
+}
+
+.comment > p {
+    margin-bottom: 0;
+}
+
+#profile2 {
+    height: 100%;
+}
+
+.insta > a {
+    color: black;
+    text-decoration: none;
+}
+
+.insta > a:hover {
+    background: linear-gradient(to right top, #f2c761, #df0092);
+    color: transparent;
+    -webkit-background-clip: text;
 }
