@@ -8,11 +8,6 @@ body {
     background-color: #eaf0ff;
 }
 
-#wrapper {
-}
-
-.content-wrapper {
-}
 .top-bar {
     width: 100%;
     height: 6rem;
@@ -64,15 +59,28 @@ a.nav-link {
 
 footer {
     text-align: center;
-    height: 40px;
-    position: relative;
-    transform: translateY(0%);
-    line-height: 40px;
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 4rem;
     color: #ffffff;
     background-color: #00477f;
 }
 
-/* #motion {
+#text {
+    position: fixed;
+    bottom: 10rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#text > p {
+    margin-bottom: 0.5rem;
+    font-size: 12px;
+}
+
+#motion {
     animation: motion 0.5s linear 0s infinite alternate;
 }
 @keyframes motion {
@@ -82,4 +90,4 @@ footer {
     100% {
         margin-top: 20px;
     }
-} */
+}
