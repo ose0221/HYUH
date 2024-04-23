@@ -64,6 +64,7 @@ footer {
     bottom: 0;
     width: 100%;
     line-height: 4rem;
+    font-size: 10px;
     color: #ffffff;
     background-color: #00477f;
 }
@@ -145,7 +146,7 @@ footer {
 .nav a.active:hover:before,
 .nav a.active:hover:after {
     transform: scaleX(1);
-  }
+}
 .nav-link.active {
     color: #00477f;
-  }
+}
