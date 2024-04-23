@@ -3,7 +3,7 @@ html {
     margin: 0;
     padding: 0;
     height: 100%;
-    overflow: hidden; 
+    overflow: hidden;
 }
 .letter {
     position: relative;
@@ -12,6 +12,7 @@ html {
     margin: 0 auto;
     overflow: hidden;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .letterimg {
     display: block;
@@ -25,7 +26,7 @@ html {
     width: 100%;
     height: 90%;
     padding: 2rem;
-    margin: 1rem 0;
+    margin: 1.2rem 0;
     box-sizing: border-box;
     overflow-y: auto;
 }
