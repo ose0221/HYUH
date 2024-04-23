@@ -147,7 +147,9 @@ footer {
 .nav a.active:hover:before,
 .nav a.active:hover:after {
     transform: scaleX(1);
-}
+  }
+  
+  
 
 /* .nav-item a.nav-link {
     padding: 10px 20px;
@@ -226,28 +228,3 @@ footer {
   .nav-item a.nav-link:hover {
     color: #00477f;
   }
-  
-  .nav-item a.nav-link:hover:before {
-    opacity: 1;
-    right: 5px;
-    top: 5px;
-  }
-  
-  .nav-item a.nav-link:hover:after {
-    opacity: 1;
-    left: 5px;
-    bottom: 5px;
-  }
-  
-  .nav-item a.nav-link:hover span:before {
-    opacity: 1;
-    left: 5px;
-    top: 5px;
-  }
-  
-  .nav-item a.nav-link:hover span:after {
-    opacity: 1;
-    right: 5px;
-    bottom: 5px;
-  }
-   */
