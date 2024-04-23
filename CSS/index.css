@@ -4,6 +4,15 @@
     font-style: normal;
 }
 
+body {
+    background-color: #eaf0ff;
+}
+
+#wrapper {
+}
+
+.content-wrapper {
+}
 .top-bar {
     width: 100%;
     height: 6rem;
@@ -46,3 +55,31 @@ div.nav {
 a.nav-link {
     color: #000;
 }
+
+.togo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    height: 40px;
+    position: relative;
+    transform: translateY(0%);
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #00477f;
+}
+
+/* #motion {
+    animation: motion 0.5s linear 0s infinite alternate;
+}
+@keyframes motion {
+    0% {
+        margin-top: 0px;
+    }
+    100% {
+        margin-top: 20px;
+    }
+} */
