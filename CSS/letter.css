@@ -9,10 +9,8 @@ html {
     position: relative;
     width: 90%;
     height: 55vh;
-    margin: 0 auto;
+    margin: 1rem auto;
     overflow: hidden;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 .letterimg {
     display: block;
@@ -26,7 +24,22 @@ html {
     width: 100%;
     height: 90%;
     padding: 1rem;
-    margin: 2rem 0 1rem 0;
+    margin: 2rem 0;
     box-sizing: border-box;
     overflow-y: auto;
+}
+
+.lettertext::-webkit-scrollbar {
+    width: 10px; /* 스크롤바의 너비 */
+}
+
+.lettertext::-webkit-scrollbar-thumb {
+    height: 30%; /* 스크롤바의 길이 */
+    background: #00477f; /* 스크롤바의 색상 */
+
+    border-radius: 10px;
+}
+
+.lettertext::-webkit-scrollbar-track {
+    background: rgba(33, 122, 244, 0.1); /*스크롤바 뒷 배경 색상*/
 }
